@@ -1,0 +1,53 @@
+.header,
+.container,
+.row,
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  width: 254px;
+  height: 65px;
+  margin-bottom: 17px;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border: 10px solid rgba(0, 0, 0, 1);
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.box:hover {
+  background-color: rgba(140, 140, 140, 1);
+  cursor: pointer;
+}
+
+.box-o:hover {
+  background-color: rgba(0, 38, 237, 1);
+}
+
+.box-x:hover {
+  background-color: rgba(255, 5, 5, 1);
+}
+
+.box:hover > svg > path {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.complete-o {
+  border-color: rgba(0, 38, 237, 1);
+}
+
+.complete-x {
+  border-color: rgba(255, 5, 5, 1);
+}

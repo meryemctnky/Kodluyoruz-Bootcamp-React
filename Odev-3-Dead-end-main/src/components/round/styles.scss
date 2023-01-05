@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.schema {
+  position: relative;
+  width: 1920px;
+  height: 100vh;
+  transform: scale(0.6);
+
+  svg * {
+    fill: map-get($colors, svg);
+  }
+
+  p {
+    position: absolute;
+    margin: 0;
+  }
+
+  .question {
+    top: 320px;
+    left: 228px;
+  }
+}
+
+.check {
+  position: absolute;
+  top: 0;
+
+  svg * {
+    fill: yellow;
+  }
+}

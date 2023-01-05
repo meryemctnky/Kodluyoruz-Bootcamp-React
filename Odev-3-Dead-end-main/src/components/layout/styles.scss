@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: map-get($colors, bg);
+}
+
+.correct {
+  background-color: map-get($colors, correct);
+}
+
+.incorrect {
+  background-color: map-get($colors, incorrect);
+}

@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+.choice {
+  position: absolute;
+  cursor: pointer;
+
+  p {
+    font-size: 90px;
+  }
+}
+
+.correct-choice {
+  svg path {
+    fill: map-get($colors, correct) !important;
+  }
+}
+
+.selected-choice {
+  svg path {
+    fill: map-get($colors, bg) !important;
+  }
+
+  p {
+    color: map-get($colors, bg) !important;
+  }
+}

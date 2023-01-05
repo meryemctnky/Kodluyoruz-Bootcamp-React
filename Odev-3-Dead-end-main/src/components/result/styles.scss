@@ -1,0 +1,64 @@
+.container-result {
+  font-size: 64px;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  max-width: 1920px;
+  max-height: 1080px;
+  transform: scale(0.6);
+
+  h2 {
+    color: #ff0000;
+  }
+
+  .section-left {
+    h2 {
+      font-size: 82px;
+    }
+  }
+
+  .result-line {
+    font-size: 9px;
+  }
+
+  .scores {
+    padding-top: 20px;
+
+    div {
+      margin: 40px 0px;
+    }
+  }
+
+  .svg-button {
+    position: relative;
+    padding-top: 64px;
+
+    svg,
+    span {
+      cursor: pointer;
+    }
+
+    span {
+      position: absolute;
+      top: 92px;
+      left: 98px;
+    }
+  }
+
+  .section-right {
+    h2 {
+      font-size: 64px;
+    }
+  }
+
+  .section-right > ul {
+    font-size: 52px;
+    margin-top: 54px;
+    padding: 0;
+
+    li {
+      list-style: none;
+    }
+  }
+}
